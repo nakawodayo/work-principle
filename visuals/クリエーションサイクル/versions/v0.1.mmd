@@ -1,0 +1,46 @@
+graph LR;
+    subgraph Phase1["日常にワークを持ち込む"]
+        A(("労働する (仕事・日常)<br>Work (Job & Daily Life)"))
+        B("日々のワークショップ<br>Daily Workshop")
+        A -->|"クリエイティビティを刺激する<br>Stimulate Creativity"| B
+        C("やりたいことをやる<br>Personal Creative Work")
+        D("やらせたいことをやらせる<br>Collaborative Creative Work")
+        B -->|"さらに深める<br>Explore Further"| C
+        B -->|"他者と関わる<br>Engage with Others"| D
+    end
+
+    subgraph Phase2["形にする ～ 作品化 ～ 発表"]
+        E("小さな箱を作る<br>Small-scale Creation")
+        F("構成する<br>Structure & Develop (Creation)")
+        G("発表する<br>Present & Showcase")
+        H(("芸術作品を制作する<br>Work of Art"))
+
+        C -->|"形にする<br>Give it Form"| E
+        D -->|"形にする<br>Give it Form"| E
+        E -->|"作品を構築する<br>Construct Works"| F
+        F -->|"発表の場を作る<br>Create Presentation Opportunities"| G
+        G -->|"ブラッシュアップする<br>Refine the Work"| H
+    end
+
+    subgraph Phase3["記録 ～ アーカイブ ～ 振り返り"]
+        I["記録とシェア<br>(Notion / Discord / Google / Instagram)<br>Documentation & Sharing"]
+        M("振り返り・記録の整理<br>Review & Documentation")
+        L("トーク・対話<br>Discussion")
+        K["座談会・レポート<br>(Notion / Google Docs)<br>Discussion & Documentation"]
+        N["Try(次にやるべきこと)を抽出する<br>Identify Next Steps"]
+
+        B -->|"記録"| I
+        C -->|"記録"| I
+        D -->|"記録"| I
+
+        I -->|"整理する"| M
+        G -->|"整理する"| M
+        M -->|"整理する"| L
+
+        M -->|"探究を深める"| K
+        L -->|"探究を深める"| K
+
+        M-->N
+        K-->N
+        N-->|"サイクルを回す"| A
+    end

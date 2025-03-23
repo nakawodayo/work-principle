@@ -1,0 +1,9 @@
+.env
+*.png
+*.jpg
+*.mp4
+*.mov
+*.zip
+.DS_Store
+.vscode/
+.idea/
