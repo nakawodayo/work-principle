@@ -19,3 +19,7 @@ Discord に Notion の今日の予定を毎朝投稿（`bot/` 以下にスクリ
 
 - Discord サーバー（記録）
 - Notion データベース（アーカイブ）
+
+## その他
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/nakawodayo/work-principle?utm_source=oss&utm_medium=github&utm_campaign=nakawodayo%2Fwork-principle&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
