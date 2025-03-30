@@ -1,0 +1,32 @@
+name: Wakuberu Bot Schedule
+
+on:
+  schedule:
+    - cron: "30 8 * * *" # 毎日 8:30（UTC。JSTだと+9時間）
+    - cron: "30 9 * * *" # 毎日 18:30（JST 18:00はUTCで9:00）
+  workflow_dispatch: # 手動実行もできるようにする
+
+jobs:
+  run-wakuberu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Wakuberu Bot
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          WORK_BELL_WEBHOOK_URL: ${{ secrets.WORK_BELL_WEBHOOK_URL }}
+        run: |
+          python work_bell_bot.py
