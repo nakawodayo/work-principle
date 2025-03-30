@@ -28,5 +28,6 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          WORK_BELL_WEBHOOK_URL: ${{ secrets.WORK_BELL_WEBHOOK_URL }}
         run: |
           python bot/main.py
