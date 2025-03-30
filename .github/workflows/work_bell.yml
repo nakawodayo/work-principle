@@ -2,8 +2,8 @@ name: Wakuberu Bot Schedule
 
 on:
   schedule:
-    - cron: "30 8 * * *" # 毎日 8:30（UTC。JSTだと+9時間）
-    - cron: "30 9 * * *" # 毎日 18:30（JST 18:00はUTCで9:00）
+    - cron: "30 23 * * *" # 毎日 8:30
+    - cron: "0 9 * * *" # 毎日 18:30
   workflow_dispatch: # 手動実行もできるようにする
 
 jobs:
