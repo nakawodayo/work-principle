@@ -7,8 +7,8 @@ const config: Config = {
   tagline: "日々の無意味な実践",
   favicon: "img/favicon.ico",
 
-  url: "https://your-docusaurus-site.example.com",
-  baseUrl: "/",
+  url: "https://nakawodayo.github.io'",
+  baseUrl: "/work-principle/",
 
   organizationName: "nakawodayo",
   projectName: "work-principle",
