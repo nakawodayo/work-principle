@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[872],{8577:s=>{s.exports=JSON.parse('{"tags":[{"label":"\u304a\u77e5\u3089\u305b","permalink":"/work-principle/blog/tags/\u304a\u77e5\u3089\u305b","count":1}]}')}}]);

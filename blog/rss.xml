@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>ワーク原理主義 Blog</title>
+        <link>https://nakawodayo.github.io/work-principle/blog</link>
+        <description>ワーク原理主義 Blog</description>
+        <lastBuildDate>Fri, 17 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ja</language>
+        <item>
+            <title><![CDATA[ドキュメントポータル公開のお知らせ]]></title>
+            <link>https://nakawodayo.github.io/work-principle/blog/20240517-ドキュメントポータル公開のお知らせ</link>
+            <guid>https://nakawodayo.github.io/work-principle/blog/20240517-ドキュメントポータル公開のお知らせ</guid>
+            <pubDate>Fri, 17 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[ワーク原理主義の思想と実践をまとめたドキュメントポータルを公開しました。]]></description>
+            <content:encoded><![CDATA[<p>ワーク原理主義に関する文章をまとめた<strong>ドキュメントポータル</strong>を公開しました！</p>
+<p>以下のリンクからポータルをご覧いただけます：</p>
+<p>👉 <a href="https://nakawodayo.github.io/work-principle/docs">ドキュメントポータルへ</a></p>]]></content:encoded>
+            <category>お知らせ</category>
+        </item>
+    </channel>
+</rss>
