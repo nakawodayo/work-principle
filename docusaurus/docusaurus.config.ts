@@ -29,7 +29,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           editUrl: "https://github.com/nakawodayo/work-principle/tree/main/",
         },
-        blog: false, // Blog機能を使わない場合
+        // blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -51,6 +51,11 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Docs",
+        },
+        {
+          to: "/blog",
+          label: "Blog",
+          position: "left",
         },
         {
           href: "https://github.com/nakawodayo/work-principle",
