@@ -23,7 +23,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "link",
       label: "ワークデータベース",
-      href: "https://aerial-spleen-476.notion.site/1b18b57500e9805baad1e40abfb3d4fb?v=1b18b57500e9806e870b000c2799712b&pvs=4",
+      href: "https://aerial-spleen-476.notion.site/1b18b57500e9802ab6b6c4ffd98e0ded",
     },
   ],
 };
