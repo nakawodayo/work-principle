@@ -7,7 +7,7 @@ const config: Config = {
   tagline: "日々の無意味な実践",
   favicon: "img/favicon.ico",
 
-  url: "https://nakawodayo.github.io'",
+  url: "https://nakawodayo.github.io",
   baseUrl: "/work-principle/",
 
   organizationName: "nakawodayo",
