@@ -16,20 +16,6 @@ const config: Config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  plugins: [
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-          {
-            to: "/work-principle/docs", // リダイレクト先
-            from: "/", // リダイレクト元
-          },
-        ],
-      },
-    ],
-  ],
-
   i18n: {
     defaultLocale: "ja",
     locales: ["ja"],
