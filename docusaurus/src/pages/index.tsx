@@ -1,6 +1,12 @@
 import React from "react";
-import { Redirect } from "@docusaurus/router";
+import { useHistory } from "@docusaurus/router";
 
 export default function Home() {
-  return <Redirect to="/work-principle/docs/" />;
+  const history = useHistory();
+
+  React.useEffect(() => {
+    history.push("docs/");
+  }, []);
+
+  return null;
 }
