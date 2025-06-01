@@ -22,7 +22,7 @@ const config: Config = {
       {
         redirects: [
           {
-            to: "/docs", // リダイレクト先
+            to: "/work-principle/docs", // リダイレクト先
             from: "/", // リダイレクト元
           },
         ],
